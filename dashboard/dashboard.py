@@ -7,8 +7,8 @@ import seaborn as sns
 st.set_page_config(layout="wide")
 
 # Initialize Files
-hour_file = '../bike-sharing-dataset/hour.csv'
-day_file = '../bike-sharing-dataset/day.csv'
+hour_file = 'bike-sharing-dataset/hour.csv'
+day_file = 'bike-sharing-dataset/day.csv'
 
 # Sidebar for selecting the year and month
 with st.sidebar:
